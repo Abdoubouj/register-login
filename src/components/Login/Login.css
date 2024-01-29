@@ -1,0 +1,113 @@
+.login-section{
+    display: flex;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .login-section .left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .login-section .left img{
+    width: 540px;
+  }
+  .login-section .right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-section .right .form-container{
+    width: 550px;
+    /* height: 600px; */
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+  }
+  .login-section .form-container h1{
+    text-align: center;
+    font-size: 35px;
+    color: #05A6F0;
+    font-weight: 900;
+  }
+  .login-section .right form{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .login-section form .field{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   flex: 0 0 100%;
+}
+.login-section .field .emailInput,.login-section .field .passwordInput{
+    position: relative;
+  }
+  
+  .login-section .field .emailInput .emailIcon , .login-section .field .passwordInput .passwordIcon{
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: 8px 0 0 8px;
+    height: 100%;
+    width: 50px;
+    background: #05A6F0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-section .field label{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  .login-section .field input{
+    padding: 15px 10px 15px 60px;
+    border-radius: 8px;
+    /* border: 2px solid #05A6F0; */
+    /* transition: 0.3s; */
+    background: #fefefe;
+    border: 1px solid #cbcbcb;
+    width: 100%;
+  }
+  .login-section .field input:focus{
+    border: 1px solid #05A6F0;
+    outline: 4px solid #05a6f027;
+  }
+  .login-section .btn{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    border: 0;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .login-section .create-account-btn{
+    background: #05A6F0;
+    color: #fff;
+  }
+  .login-section .sign-in-btn{
+    background: #333;
+    color: #f1f1f1;
+  }
+  ::placeholder{
+    color: #111;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
